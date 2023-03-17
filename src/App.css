@@ -218,10 +218,11 @@ h3 {
 .explore {
   /* background-image: url(./pages/images/background_strtr.jpg); */
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   /* margin: auto; */
   top: 10rem;
   padding-left: 50px;
+  overflow-x: hidden;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(250px, 0.5fr));
